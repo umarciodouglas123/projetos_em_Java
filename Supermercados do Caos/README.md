@@ -21,6 +21,5 @@ Márcio Douglas da Silva dos Santos Vieira
 
 ## 💻 Como executar
 
-1. Compile o programa:
-```bash
-javac Main.java
+- Recomendo usar um compilador online, eu usei o GDB, mas fica a seu critério.
+- Copie e cole o código em um compilador online de sua preferência.
