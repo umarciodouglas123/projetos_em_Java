@@ -9,13 +9,11 @@ Sistema simples de supermercado em Java com funcionalidades de:
 
 ### ✨ Desenvolvido por
 
-Márcio Douglas da Silva dos Santos Vieira
+- Márcio Douglas da Silva dos Santos Vieira
 
 ### 🔧 Funcionalidades futuras
 
 - Salvar e carregar produtos de um arquivo (`.txt` ou `.csv`)
-- Menu de clientes e funcionários
-- Relatórios e histórico de vendas
 
 ---
 
