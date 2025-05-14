@@ -2,9 +2,8 @@
 
 Sistema simples de supermercado em Java com funcionalidades de:
 
-- Cadastro de produtos
+- Criação de estoque
 - Consulta de estoque
-- Compras com atualização automática do estoque
 - Aplicação de descontos no valor total da compra
 
 ### ✨ Desenvolvido por
@@ -21,4 +20,6 @@ Sistema simples de supermercado em Java com funcionalidades de:
 ## 💻 Como executar
 
 - Recomendo usar um compilador online, eu usei o GDB, mas fica a seu critério.
-- Baixe o `Main.java` e o `estoque.txt` e faça o upload um compilador online de sua preferência.
+- Copie o `Main.java` e cole em um compilador online de sua preferência.
+- Caso queira usar o meu estoque, fique a vontade para copiar o arquivo `estoque.txt` e colar em um compilador online de sua preferência.
+- Caso não queira usar, o próprio código cria o `estoque.txt` baseado nos produtos que você adicionou.
