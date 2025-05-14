@@ -1,4 +1,4 @@
-# 🛒 Supermercados do Caos
+# 🛒 Supermercados do Caos, uma explosão de preços altos!
 
 Sistema simples de supermercado em Java com funcionalidades de:
 
@@ -13,11 +13,12 @@ Sistema simples de supermercado em Java com funcionalidades de:
 
 ### 🔧 Funcionalidades futuras
 
-- Salvar e carregar produtos de um arquivo (`.txt` ou `.csv`)
+- Atualização da quantidade no estoque.
+- Alertar quando a quantidade de deterinado produto estiver abaixo de 10.
 
 ---
 
 ## 💻 Como executar
 
 - Recomendo usar um compilador online, eu usei o GDB, mas fica a seu critério.
-- Copie e cole o código em um compilador online de sua preferência.
+- Baixe o `Main.java` e o `estoque.txt` e faça o upload um compilador online de sua preferência.
