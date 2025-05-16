@@ -12,8 +12,7 @@ Sistema simples de supermercado em Java com funcionalidades de:
 
 ### 🔧 Funcionalidades futuras
 
-- Atualização da quantidade no estoque.
-- Alertar quando a quantidade de deterinado produto estiver abaixo de 10.
+- Criar estoque dinâmico.
 
 ---
 
