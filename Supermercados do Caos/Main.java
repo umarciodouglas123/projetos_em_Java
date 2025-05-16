@@ -29,14 +29,25 @@ class Produto{ //No GDB, não pode ter duas classes com "public", ou seja, deixa
         return precofinal;
     }
     
-    public float fazerCompra(Scanner scanner){ //Passei o scanner como parâmetro porque em Produto não tem Scanner
+    public float fazerCompra(Scanner scanner, List<Produto> produtos){
         System.out.printf("Produto: %s | Preço: R$%.2f | Estoque: %d\n", nome, preco, qtd);
         System.out.print("Quantas unidades deseja comprar? ");
         int quantidade = scanner.nextInt();
+
         if(quantidade<=qtd){
             qtd -= quantidade;
             float subtotal = preco * quantidade;
             System.out.printf("Compra realizada! Subtotal: R$%.2f\n", subtotal);
+            try{
+                FileWriter fw = new FileWriter("estoque.txt", false); // sobrescreve o arquivo
+                for(Produto p : produtos){
+                fw.write(p.nome + ";" + p.preco + ";" + p.qtd + "\n");
+                }
+                fw.close();
+            }
+            catch(IOException e){
+                System.out.println("Erro ao salvar o estoque atualizado.");
+            }
             return subtotal;
         }
         else{
@@ -44,6 +55,7 @@ class Produto{ //No GDB, não pode ter duas classes com "public", ou seja, deixa
             return 0;
         }
     }
+
     
     public void addProduto(Scanner scanner){
         scanner.nextLine(); //Limpa o buffer
@@ -151,7 +163,7 @@ public class Main{ //A classe principal é a que tem o nome do arquivo e "public
                         escolha = scanner.nextInt();
                         if((escolha>0) && (escolha<=produtos.size())){
                             Produto p = produtos.get(escolha - 1);
-                            totalCompra += p.fazerCompra(scanner);
+                            totalCompra += p.fazerCompra(scanner, produtos);
                         }
                         else if(escolha!=0){
                             System.out.println("Produto inválido.");
