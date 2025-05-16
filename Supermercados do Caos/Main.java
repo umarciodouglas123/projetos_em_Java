@@ -33,15 +33,15 @@ class Produto{ //No GDB, não pode ter duas classes com "public", ou seja, deixa
         System.out.printf("Produto: %s | Preço: R$%.2f | Estoque: %d\n", nome, preco, qtd);
         System.out.print("Quantas unidades deseja comprar? ");
         int quantidade = scanner.nextInt();
-
+        
         if(quantidade<=qtd){
             qtd -= quantidade;
             float subtotal = preco * quantidade;
             System.out.printf("Compra realizada! Subtotal: R$%.2f\n", subtotal);
             try{
-                FileWriter fw = new FileWriter("estoque.txt", false); // sobrescreve o arquivo
+                FileWriter fw = new FileWriter("estoque.txt", false);
                 for(Produto p : produtos){
-                fw.write(p.nome + ";" + p.preco + ";" + p.qtd + "\n");
+                    fw.write(p.nome + ";" + p.preco + ";" + p.qtd + "\n");
                 }
                 fw.close();
             }
