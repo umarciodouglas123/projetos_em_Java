@@ -13,6 +13,7 @@ Sistema simples de supermercado em Java com funcionalidades de:
 ### 🔧 Funcionalidades futuras
 
 - Criar estoque dinâmico.
+- Criar interface interativa (sem previsão).
 
 ---
 
