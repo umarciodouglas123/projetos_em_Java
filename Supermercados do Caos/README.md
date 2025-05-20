@@ -14,6 +14,7 @@ Sistema simples de supermercado em Java com funcionalidades de:
 
 - Criar estoque dinâmico.
 - Criar interface interativa (sem previsão).
+- Criar arquivos separados para melhor visualização das classes.
 
 ---
 
