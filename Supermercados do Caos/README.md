@@ -14,12 +14,3 @@ Sistema simples de supermercado em Java com funcionalidades de:
 
 - Criar estoque dinâmico.
 - Criar interface interativa (sem previsão).
-
----
-
-## 💻 Como executar
-
-- Recomendo usar um compilador online, eu usei o GDB, mas fica a seu critério.
-- Copie o `Main.java` e cole em um compilador online de sua preferência.
-- Caso queira usar o meu estoque, fique a vontade para copiar o arquivo `estoque.txt` e colar em um compilador online de sua preferência.
-- Caso não queira usar, o próprio código cria o `estoque.txt` baseado nos produtos que você adicionou.
