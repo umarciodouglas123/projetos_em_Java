@@ -12,6 +12,6 @@ Sistema simples de supermercado em Java com funcionalidades de:
 
 ### 🔧 Funcionalidades futuras
 
-- Criar estoque dinâmico.
+- Criar estoque dinâmico (adicionar produtos já existentes).
 - Criar interface interativa (sem previsão).
 - Criar carrinho de compras.
